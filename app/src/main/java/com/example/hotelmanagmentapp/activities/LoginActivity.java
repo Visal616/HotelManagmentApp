@@ -17,7 +17,7 @@ import androidx.core.view.WindowInsetsCompat;
 import com.example.hotelmanagmentapp.R;
 import com.example.hotelmanagmentapp.data.local.UserSharePreference;
 import com.example.hotelmanagmentapp.data.remote.models.request.LoginRequest;
-import com.example.hotelmanagmentapp.data.remote.models.response.LoginResponse;
+import com.example.hotelmanagmentapp.data.remote.models.response.login.LoginResponse;
 import com.example.hotelmanagmentapp.data.remote.repository.AuthRepository;
 
 public class LoginActivity extends AppCompatActivity {

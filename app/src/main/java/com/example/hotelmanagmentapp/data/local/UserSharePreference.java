@@ -3,7 +3,7 @@ package com.example.hotelmanagmentapp.data.local;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import com.example.hotelmanagmentapp.data.remote.models.response.LoginResponse;
+import com.example.hotelmanagmentapp.data.remote.models.response.login.LoginResponse;
 
 public class UserSharePreference {
     public static void saveToken(LoginResponse loginResponse, Context context){

@@ -3,14 +3,13 @@ package com.example.hotelmanagmentapp.activities;
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.example.hotelmanagmentapp.R;
 import com.example.hotelmanagmentapp.data.remote.models.request.LoginRequest;
-import com.example.hotelmanagmentapp.data.remote.models.response.LoginResponse;
+import com.example.hotelmanagmentapp.data.remote.models.response.login.LoginResponse;
 import com.example.hotelmanagmentapp.data.remote.repository.AuthRepository;
 
 public class MainActivity extends BaseActivity {

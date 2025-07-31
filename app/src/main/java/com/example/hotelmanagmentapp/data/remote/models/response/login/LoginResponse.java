@@ -1,4 +1,4 @@
-package com.example.hotelmanagmentapp.data.remote.models.response;
+package com.example.hotelmanagmentapp.data.remote.models.response.login;
 
 import com.google.gson.annotations.SerializedName;
 
