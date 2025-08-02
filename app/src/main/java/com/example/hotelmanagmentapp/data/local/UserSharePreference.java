@@ -11,6 +11,7 @@ public class UserSharePreference {
         SharedPreferences.Editor editor = sharedPreferences.edit();
         editor.putString("access_token", loginResponse.getAccessToken());
         editor.putString("refresh_token", loginResponse.getRefreshToken());
+        editor.putString("username", loginResponse.getUser().getUsername());
         editor.apply();
     }
 
@@ -23,4 +24,10 @@ public class UserSharePreference {
         SharedPreferences sharedPreferences = context.getSharedPreferences("User_DB", context.MODE_PRIVATE);
         return sharedPreferences.getString("refresh_token","");
     }
+
+    public static String getUsername(Context context){
+        SharedPreferences sharedPreferences = context.getSharedPreferences("User_DB", context.MODE_PRIVATE);
+        return sharedPreferences.getString("username","");
+    }
+
 }
