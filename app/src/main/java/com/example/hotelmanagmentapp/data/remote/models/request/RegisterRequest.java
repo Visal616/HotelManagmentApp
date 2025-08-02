@@ -31,6 +31,9 @@ public class RegisterRequest{
 	@SerializedName("username")
 	private String username;
 
+	public RegisterRequest(String firstName, String lastName, String username, String email, String phoneNumber, String password, String confirmPassword, String non, String user) {
+	}
+
 	public void setFirstName(String firstName){
 		this.firstName = firstName;
 	}

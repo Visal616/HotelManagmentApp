@@ -13,6 +13,7 @@ public class BaseActivity extends AppCompatActivity {
         if(UserSharePreference.getAccessToken(this).isEmpty()){
             Intent intent = new Intent(this,LoginActivity.class);
             startActivity(intent);
+            finish();
         }
     }
 }
